@@ -8,7 +8,35 @@ const inter = Inter({ subsets: ["latin"], display: "swap" });
 export const metadata: Metadata = {
   title: "HoopSpark — Get Better From Your Game Film",
   description:
-    "Upload a clip. Get clear feedback in seconds. Built for basketball players 12–18.",
+    "Honest feedback on your game film. 3 strengths. 3 things to work on. 1 focus area. 1 drill.",
+  metadataBase: new URL("https://www.hoopspark.ai"),
+  openGraph: {
+    title: "HoopSpark — Get Better From Your Game Film",
+    description:
+      "Honest feedback on your game film. 3 strengths. 3 things to work on. 1 focus area. 1 drill.",
+    url: "https://www.hoopspark.ai",
+    siteName: "HoopSpark",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "HoopSpark — Get Better From Your Game Film",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "HoopSpark — Get Better From Your Game Film",
+    description:
+      "Honest feedback on your game film. 3 strengths. 3 things to work on. 1 focus area. 1 drill.",
+    images: ["/og-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export const viewport: Viewport = {
