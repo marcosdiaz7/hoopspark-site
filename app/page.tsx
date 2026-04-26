@@ -107,13 +107,14 @@ export default function Home() {
               },
             ].map(({ src, alt, caption }) => (
               <div key={src}>
-                <Image
-                  src={src}
-                  alt={alt}
-                  width={400}
-                  height={800}
-                  className="w-full rounded-xl ring-1 ring-zinc-800"
-                />
+                <div className="relative aspect-[9/16] overflow-hidden rounded-xl bg-zinc-900 ring-1 ring-zinc-800">
+                  <Image
+                    src={src}
+                    alt={alt}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
                 <p className="mt-3 text-center text-sm text-zinc-400">
                   {caption}
                 </p>
