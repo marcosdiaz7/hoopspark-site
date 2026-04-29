@@ -7,7 +7,7 @@ export default function PrivacyPage() {
       </div>
 
       <h1 className="mb-8 text-4xl font-bold">Privacy Policy</h1>
-      <p className="mb-8 text-sm text-zinc-500">Last updated: April 25, 2026</p>
+      <p className="mb-8 text-sm text-zinc-500">Last updated: April 28, 2026</p>
 
       <div className="space-y-2 text-zinc-300">
         <h2 className="mt-8 mb-3 text-xl font-semibold text-white">
@@ -67,12 +67,29 @@ export default function PrivacyPage() {
         </p>
 
         <h2 className="mt-8 mb-3 text-xl font-semibold text-white">
-          Children&apos;s Privacy
+          Age Restriction
         </h2>
         <p className="leading-relaxed">
-          HoopSpark is intended for users aged 13 and older. Users under 18
-          should have parental consent before creating an account. We do not
-          knowingly collect data from children under 13.
+          HoopSpark is intended for users 13 years of age and older. We do not
+          knowingly collect personal information from children under the age of
+          13. If you are under 13, please do not use HoopSpark.
+        </p>
+        <p className="leading-relaxed">
+          If you believe we have collected information from a child under 13,
+          please contact us at{" "}
+          <a
+            href="mailto:hello@hoopspark.ai"
+            className="text-[#FF6B2C] hover:underline"
+          >
+            hello@hoopspark.ai
+          </a>{" "}
+          and we will delete that information promptly.
+        </p>
+        <p className="leading-relaxed">
+          This policy is intended to comply with the Children&apos;s Online
+          Privacy Protection Act (COPPA). We rely on user-provided age
+          confirmation in good faith and recommend parental supervision for
+          users under 18.
         </p>
 
         <h2 className="mt-8 mb-3 text-xl font-semibold text-white">

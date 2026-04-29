@@ -10,8 +10,8 @@ export default function Home() {
             Get Better From Your Game Film
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-zinc-400 md:text-xl">
-            Upload a clip. Get clear feedback in seconds. Built for players
-            12–18.
+            Upload a clip, tell Coach Spark what&apos;s happening, and get
+            specific coaching feedback in seconds.
           </p>
           <a
             href="https://app.hoopspark.ai"
